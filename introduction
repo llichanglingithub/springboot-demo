@@ -1,0 +1,9 @@
+这是一个使用maven搭建的springboot项目
+
+涉及到的知识点
+1.spring boot 对jpa的集成的简单demo
+2.spring boot 对jbdcTemplate的简单demo
+3.事务的简单使用
+  （1）需要在Dao中进行事务的回滚，需要定义异常，根据判断逻辑抛出异常
+  （2）在service中使用@transactional注解
+ 
